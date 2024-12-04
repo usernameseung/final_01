@@ -103,3 +103,150 @@ html {
 .container.open .right {
   transform: translateX(100%);
 }
+
+.slide .overlap-group-wrapper {
+  background-color: #1eceff;
+  width: 1920px;
+  height: 1080px;
+}
+
+.slide .overlap-group {
+  position: relative;
+  height: 1080px;
+  background-image: url(./img/image-47.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.slide .overlap {
+  position: absolute;
+  width: 1699px;
+  height: 1014px;
+  top: 32px;
+  left: 0;
+}
+
+.slide .div {
+  position: absolute;
+  width: 1699px;
+  height: 1014px;
+  top: 0;
+  left: 0;
+}
+
+.slide .image {
+  position: absolute;
+  width: 208px;
+  height: 219px;
+  top: 795px;
+  left: 0;
+}
+
+.slide .img {
+  position: absolute;
+  width: 207px;
+  height: 221px;
+  top: 0;
+  left: 0;
+}
+
+.slide .overlap-2 {
+  position: absolute;
+  width: 1625px;
+  height: 816px;
+  top: 100px;
+  left: 74px;
+}
+
+.slide .rectangle {
+  width: 1479px;
+  left: 146px;
+  position: absolute;
+  height: 816px;
+  top: 0;
+  background-color: #000000;
+}
+
+.slide .element {
+  position: absolute;
+  width: 1369px;
+  height: 737px;
+  top: 39px;
+  left: 225px;
+}
+
+.slide .rectangle-2 {
+  width: 739px;
+  left: 147px;
+  position: absolute;
+  height: 816px;
+  top: 0;
+  background-color: #000000;
+}
+
+.slide .rectangle-3 {
+  width: 739px;
+  left: 886px;
+  position: absolute;
+  height: 816px;
+  top: 0;
+  background-color: #000000;
+}
+
+.slide .img-2 {
+  position: absolute;
+  width: 457px;
+  height: 111px;
+  top: 484px;
+  left: 0;
+}
+
+.slide .line-wrapper {
+  position: absolute;
+  width: 136px;
+  height: 89px;
+  top: 287px;
+  left: 72px;
+  background-image: url(./img/2025-04-30.png);
+  background-size: 100% 100%;
+}
+
+.slide .line {
+  position: absolute;
+  width: 19px;
+  height: 24px;
+  top: 58px;
+  left: 60px;
+}
+
+.slide .line-2 {
+  position: absolute;
+  width: 2px;
+  height: 115px;
+  top: 422px;
+  left: 70px;
+}
+
+.slide .image-2 {
+  position: absolute;
+  width: 207px;
+  height: 219px;
+  top: 827px;
+  left: 1713px;
+}
+
+.slide .image-3 {
+  position: absolute;
+  width: 203px;
+  height: 219px;
+  top: 33px;
+  left: 1717px;
+}
+
+.slide .image-4 {
+  position: absolute;
+  width: 34px;
+  height: 413px;
+  top: 305px;
+  left: 1788px;
+}
