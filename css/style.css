@@ -1,0 +1,105 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black; /* 배경색 */
+  overflow: hidden; /* 스크롤 제거 */
+}
+
+.box-container {
+  display: flex; /* 플렉스박스 사용 */
+  justify-content: center; /* 가로 중앙 정렬 */
+  align-items: center; /* 세로 중앙 정렬 */
+  width: 100%; /* 컨테이너 너비 */
+  height: 100vh; /* 화면 전체 높이 */
+  position: absolute;
+}
+
+.page-1 {
+  z-index: 100;
+  background-color: black;
+}
+
+.page-2 {
+  z-index: 99;
+}
+
+.page-3 {
+  z-index: 98;
+}
+
+.result {
+  z-index: 97;
+  display: none;
+}
+
+#draw_01 {
+  max-width: 100%; /* 이미지 최대 너비 */
+  object-fit: contain; /* 이미지 비율 유지 */
+  position: relative;
+}
+
+#pic_01 {
+  max-width: 100%; /* 이미지 최대 너비 */
+  max-height: 100%; /* 이미지 최대 높이 */
+  object-fit: contain; /* 이미지 비율 유지 */
+  position: relative;
+}
+
+#pic_02 {
+  position: absolute;
+  top: 50%; /* 부모 요소(pic_01)의 중앙 정렬 */
+  left: 50%;
+  transform: translate(-50%, -50%); /* 완벽한 가운데 정렬 */
+  max-width: 75%; /* 필요 시 크기 조정 */
+  object-fit: contain;
+}
+
+#pic_03 {
+  position: absolute;
+  top: 50%; /* 부모 요소(pic_01)의 중앙 정렬 */
+  left: 50%;
+  transform: translate(-50%, -50%); /* 완벽한 가운데 정렬 */
+  object-fit: contain;
+}
+
+#box_01 {
+  position: absolute;
+  transform: translate(-50%, -50%); /* 완벽한 가운데 정렬 */
+  object-fit: contain;
+}
+
+#draw_02 {
+  max-width: 100%; /* 이미지 최대 너비 */
+  object-fit: contain; /* 이미지 비율 유지 */
+  position: relative;
+}
+
+#third {
+  position: absolute;
+}
+
+.door {
+  background-color: white;
+  transition: all 0.5s ease;
+  position: absolute;
+  top: 50%; /* 부모 요소(pic_01)의 중앙 정렬 */
+  object-fit: contain;
+}
+.left {
+  left: 0;
+}
+.right {
+  right: 0;
+}
+.container.open .left {
+  transform: translateX(-100%);
+}
+.container.open .right {
+  transform: translateX(100%);
+}
